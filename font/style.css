@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .row-1 {width: 100%; display: flex;flex-direction: column;}
+  }
+  .principal {
+    margin: auto;
+    width: 100%;
+    background-color: #F5DB13;
+    z-index: -1;
+}

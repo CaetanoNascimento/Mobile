@@ -1,0 +1,119 @@
+@media only screen and (max-width: 768px) {
+    
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('./font/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('./font/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    /* For mobile phones: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .row-1 {width: 100%; display: flex;flex-direction: row;}
+    .principal {
+        margin: auto;
+        width: 100%;
+        background-color: white;
+        z-index: -1;
+    }
+    .box{
+        margin-left: 190px;
+    }
+    .titulo{
+        font-family: 'bebas_neueregular';
+        font-weight: 100;
+        font-size: 60px;
+        color: #000000;
+        font-style: normal;
+    }
+    .titulo2{
+        font-size: 50px;
+    }
+    .icognita{
+        margin-top: 22px;
+        margin-left: 48px;
+    }
+    .entrada{
+        border-radius: 8px;
+        color: black;
+        background: rgba(249, 235, 235, 0.61);
+        border: none;
+        width: 59px;
+        height: 43px;
+        margin-left: 29px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .botao{
+        background: #7FE0BD;
+        border-radius: 8px;
+        border: none;
+        width: 303px;
+        height: 38px;
+        font-size: 24px;
+        font-family: 'bebas_neueregular';
+        font-style: normal;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    #bha{
+        margin-top: 16px;
+        margin-left: 69px;
+    }
+    #numero{
+        margin-top: 181px;
+        margin-left: 101px;
+    }
+    .principalmodal{
+        background-color: rgba(160, 155, 153, 0.39);
+        position: fixed;
+        top: 0;
+        display: none;
+        width: 354px;
+        height: 436px;
+        margin-left: 12px;
+        margin-top: 97px;
+      }
+    #x{
+        margin-left: 279px;
+        margin-top: 58px;
+        width: 52px;
+    }
+    #x1{
+        margin-left: -330px;
+        margin-top: 260px;
+        font-family: 'bebas_neueregular';
+        font-size: 36px;
+    }
+    #x2{
+        margin-left: -341px;
+        margin-top: 300px;
+        font-family: 'bebas_neueregular';
+        font-size: 36px;
+    }
+    #rammus{
+        margin-left: -153px;
+    width: 191px;
+    height: 173px;
+    margin-top: 200px;
+    }
+    #sylas{
+        margin-left: -333px;
+    width: 191px;
+    height: 173px;
+    margin-top: 324px;
+    }
+}
